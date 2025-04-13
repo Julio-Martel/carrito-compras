@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Cinzel:wght@400..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Tektur:wght@400..900&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
 }
 
 .main-body {
-	background: yellowgreen;
+	background: url('images/background.jpg');
+	background-size: cover;
 	display: flex;
 	flex-direction: column;
 	height: 100vh;
@@ -20,16 +23,17 @@
 
 .letter {
 	color: #ffffff;
+	 font-family: "Open Sans", sans-serif;
 }
 
 #main-title {
 	font-size: 2rem;
-	margin-left: 5px;
+	margin-left: 2rem;
 }
 
 .main-nav {
 	display: flex;
-	margin-right: 10px;
+	margin-right: 2rem;
 	align-items: center;
 }
 
@@ -78,6 +82,7 @@
 	width: 30% ;
 	height: 80%;
 	min-width: 100px;
+	cursor: pointer;
 }
 
 #sweets-content {
@@ -85,6 +90,7 @@
 	width: 30% ;
 	height: 80%;
 	min-width: 100px;
+	cursor: pointer;
 }
 
 #coockies-content {
@@ -92,6 +98,7 @@
 	width: 30% ;
 	height: 80%;
 	min-width: 100px;
+	cursor: pointer;
 }
 
 .main-footer {
